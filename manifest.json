@@ -1,0 +1,11 @@
+ {
+    "name": "金石堂客製",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "金石堂自動點擊腳本",
+    "content_scripts": [{
+        "matches": ["http://www.kingstone.com.tw/*", "https://www.kingstone.com.tw/*", "https://cash.kingstone.com.tw/*"],
+        "js": ["jquery.js", "background.js"]
+    }],
+    "permissions": ["http://www.kingstone.com.tw/*", "https://www.kingstone.com.tw/*", "https://cash.kingstone.com.tw/*", "background", "tabs"]
+ }
