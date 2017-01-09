@@ -5,7 +5,7 @@
     "description": "金石堂自動點擊腳本",
     "content_scripts": [{
         "matches": ["http://www.kingstone.com.tw/*", "https://www.kingstone.com.tw/*", "https://cash.kingstone.com.tw/*"],
-        "js": ["jquery.js", "background.js"]
+        "js": ["jquery.js", "content.js"]
     }],
     "permissions": ["http://www.kingstone.com.tw/*", "https://www.kingstone.com.tw/*", "https://cash.kingstone.com.tw/*", "background", "tabs"]
  }
